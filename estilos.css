@@ -19,3 +19,45 @@ h1 h2 a p {
 .carousel-text p {
     font-size: 28px;
 }
+/* Body */
+.col-md-6 {
+    display: grid;
+    place-items: center;
+    padding: 0;
+}
+
+
+
+/* Sections */
+.pt-4{
+    background-color: #064ab6ff;
+}
+.section-text_left h1 {
+    font-size: 54px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 58px;
+
+}
+.section-text_left p {
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 36px;
+}
+
+.section-text_right h1 {
+    font-size: 54px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 58px;
+    text-align: right;
+
+}
+.section-text_right p {
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 36px;
+    text-align: right;
+}
+
+.section-img img {
+    border-radius: 50px;
+}
